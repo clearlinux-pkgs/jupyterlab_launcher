@@ -4,7 +4,7 @@
 #
 Name     : jupyterlab_launcher
 Version  : 0.10.5
-Release  : 3
+Release  : 4
 URL      : https://pypi.python.org/packages/2d/da/de00b86935d45e6c8beaa2d237d613157ff489aa5e9446e67ee6fb81ff2e/jupyterlab_launcher-0.10.5.tar.gz
 Source0  : https://pypi.python.org/packages/2d/da/de00b86935d45e6c8beaa2d237d613157ff489aa5e9446e67ee6fb81ff2e/jupyterlab_launcher-0.10.5.tar.gz
 Summary  : Jupyter Launcher
@@ -14,8 +14,6 @@ Requires: jupyterlab_launcher-python3
 Requires: jupyterlab_launcher-python
 Requires: jsonschema
 Requires: notebook
-Requires: pytest
-Requires: python-mock
 Requires: requests
 BuildRequires : jsonschema
 BuildRequires : notebook
@@ -54,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1522423451
+export SOURCE_DATE_EPOCH=1528564772
 python3 setup.py build -b py3
 
 %install
