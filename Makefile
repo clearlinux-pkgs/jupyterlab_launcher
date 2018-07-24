@@ -1,5 +1,5 @@
 PKG_NAME := jupyterlab_launcher
-URL = https://pypi.python.org/packages/2d/da/de00b86935d45e6c8beaa2d237d613157ff489aa5e9446e67ee6fb81ff2e/jupyterlab_launcher-0.10.5.tar.gz
+URL = https://files.pythonhosted.org/packages/b6/7c/d4c6fa097821f5de27a2984451bc753fe6d1f0d8a09e36e92c8f26a8dd0a/jupyterlab_launcher-0.11.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
