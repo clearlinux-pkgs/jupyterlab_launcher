@@ -4,7 +4,7 @@
 #
 Name     : jupyterlab_launcher
 Version  : 0.11.2
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/b6/7c/d4c6fa097821f5de27a2984451bc753fe6d1f0d8a09e36e92c8f26a8dd0a/jupyterlab_launcher-0.11.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b6/7c/d4c6fa097821f5de27a2984451bc753fe6d1f0d8a09e36e92c8f26a8dd0a/jupyterlab_launcher-0.11.2.tar.gz
 Summary  : Jupyter Launcher
@@ -61,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532392527
+export SOURCE_DATE_EPOCH=1532882842
 python3 setup.py build -b py3
 
 %install
