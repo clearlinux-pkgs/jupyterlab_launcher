@@ -4,7 +4,7 @@
 #
 Name     : jupyterlab_launcher
 Version  : 0.13.1
-Release  : 34
+Release  : 35
 URL      : https://files.pythonhosted.org/packages/b0/30/96dd5c4caaacbc0c41754cb72547717ac8de67bb48a393b5d8b74080fbd9/jupyterlab_launcher-0.13.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b0/30/96dd5c4caaacbc0c41754cb72547717ac8de67bb48a393b5d8b74080fbd9/jupyterlab_launcher-0.13.1.tar.gz
 Summary  : Jupyter Launcher
